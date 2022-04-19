@@ -1,4 +1,4 @@
-import { Outlet} from "react-router-dom";
+import { Outlet } from "react-router-dom";
 
 const Layout = () => {
   return (
@@ -8,10 +8,14 @@ const Layout = () => {
           <span className="navbar-brand">Cronometro</span>
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a href="/" className="nav-link">Cronometro</a>
+              <a href="/" className="nav-link">
+                Cronometro
+              </a>
             </li>
             <li className="nav-item">
-              <a href="test" className="nav-link">Timer</a>
+              <a href="test" className="nav-link">
+                Timer
+              </a>
             </li>
           </ul>
         </div>
@@ -19,7 +23,7 @@ const Layout = () => {
 
       <Outlet />
     </>
-  )
+  );
 };
 
 export default Layout;

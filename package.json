@@ -5,6 +5,7 @@
   "description": "Mi Bot Discord.js en Heroku",
   "scripts": {
     "start": "react-scripts start",
+    "starts": "node ./server/server.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
@@ -19,9 +20,11 @@
   "license": "MIT",
   "homepage": "https://zhren-byte.github.io",
   "dependencies": {
+    "express": "^4.17.3",
+    "gh-pages": "^3.2.3",
+    "mongoose": "^6.3.0",
     "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "react-scripts": "^5.0.1"
+    "react-dom": "^18.0.0"
   },
   "browserslist": {
     "production": [
@@ -36,7 +39,8 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.2.3",
-    "react-router-dom": "^6.3.0"
+    "react-error-overlay": "^6.0.11",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "^5.0.1"
   }
 }
